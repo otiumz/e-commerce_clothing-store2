@@ -1,0 +1,19 @@
+.link {
+	text-decoration: none;
+	color: black;
+	font-family: "Montserrat";
+}
+
+.item_nav-btn-ham {
+	@media screen and (max-width: 626px) {
+		visibility: visible;
+	}
+	visibility: hidden;
+	padding: 8px 16px;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	img {
+		width: 20px;
+	}
+}

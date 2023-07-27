@@ -1,0 +1,48 @@
+.products {
+	padding: 30px 50px;
+	display: flex;
+					@media screen and (max-width: 800px) {
+					padding: 30px 25px;
+				}
+
+	.left {
+		@media screen and (max-width: 1104px) {
+			margin-right: 5px;
+		}
+		flex: 1;
+		position: sticky;
+		height: 100%;
+		top: 50px;
+
+		.filterItem {
+			margin-bottom: 30px;
+
+			h2 {
+				font-weight: 400;
+				margin-bottom: 20px;
+				@media screen and (max-width: 800px) {
+					font-size: 22px;
+				}
+			}
+
+			.inputItem {
+				margin-bottom: 10px;
+				label {
+					margin-left: 10px;
+					font-size: 18px;
+				}
+			}
+		}
+	}
+
+	.right {
+		flex: 3;
+
+		.catImg {
+			width: 100%;
+			height: 300px;
+			object-fit: cover;
+			margin-bottom: 50px;
+		}
+	}
+}
